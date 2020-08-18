@@ -61,7 +61,7 @@ class PersonES6 {
     }
     
     // Adding new method
-    aboutPerson() {
+    aboutPerson() { // Notice no 'function' keyword here !
 
         console.log(`My name is ${this.firstname} ${this.lastname} and I am ${this.age} years old`);
 
